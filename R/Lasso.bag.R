@@ -29,7 +29,7 @@ Lasso.bag <- function(mat,out.mat,bootN=1000,imputeN=1000,boot.rep=TRUE,a.family
     out.vec<-rep(0,length(marker_candidate))
     names(out.vec)<-marker_candidate
     selecVlist1=c()
-
+    
     #index list for lapply
     index.list.bootonce<-list()
     for(i in 1:bootN){
